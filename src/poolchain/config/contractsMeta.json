@@ -1,0 +1,22 @@
+{
+    "networks": {
+        "opBNBTestnet": {
+            "poolchain": {
+                "address": "0x80D4FA5B2Ebe85F659072299C5b93089Ce5a3352",
+                "startBlock": 0,
+                "deployedAt": "2026-01-20T14:17:49.036Z"
+            },
+            "mockUSDT": {
+                "address": "0x2F767F0Bb9d715CF5356308e30b79B27D09a96DD"
+            }
+        },
+        "opBNBMainnet": {
+            "poolchain": {
+                "address": "",
+                "startBlock": 0,
+                "deployedAt": ""
+            }
+        }
+    },
+    "_comment": "Este archivo se actualiza después de cada deploy. startBlock es crítico para el indexador."
+}

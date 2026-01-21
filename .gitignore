@@ -1,0 +1,74 @@
+# Dependencies
+node_modules/
+package-lock.json
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+.nyc_output
+
+# Production builds
+dist/
+build/
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+
+# Hardhat
+contracts/cache/
+contracts/artifacts/
+contracts/typechain/
+contracts/typechain-types/
+
+# Deployment info (comentar si quieres incluir en repo)
+contracts/deployment_*.json
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local development
+.cache/
+.temp/
+tmp/
+
+# Antigravity brain (opcional - descomentar si no quieres subir)
+# .gemini/
+
+# Archivos sensibles de verificación y configuración
+contracts/verificacion_*.json
+contracts/scripts/*_verification.js
+**/privateKeys.json
+**/apiKeys.json
+**/*.pem
+**/*.key
+
+# RPC y API endpoints sensibles
+**/rpcConfig.json
+**/apiConfig.json
+
+# Wallets y claves privadas
+*.keystore
+*.wallet
+mnemonic.txt
+seed.txt
